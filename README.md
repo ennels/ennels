@@ -11,7 +11,7 @@ Building toward a degree in engineering and a career in applied machine learning
 | Project | What it does | Stack | Status |
 |---|---|---|---|
 | [hermes](https://github.com/ennels/hermes) | Autonomous paper-trading bot — scans news, scores it with Gemini, trades via Alpaca | Python, Alpaca API, Gemini, DigitalOcean | Running |
-| [quorum](https://github.com/ennels/quorum) | Desktop scheduling app — pulls staff from QuickBooks Payroll, form data from Cognito Forms, parses PDF activity sheets with Claude Vision | Tauri, React, FastAPI, SQLAlchemy | In progress |
+| [quorum] | Desktop scheduling app — pulls staff from QuickBooks Payroll, form data from Cognito Forms, parses PDF activity sheets with Claude Vision | Tauri, React, FastAPI, SQLAlchemy | In progress |
 | [project-demos](https://github.com/ennels/project-demos) | Coursework — ML and data analysis assignments | Python, pandas, scikit-learn | Complete |
 
 ## Coursework highlights
