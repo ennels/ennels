@@ -17,6 +17,7 @@ Building toward a degree in engineering and a career in applied machine learning
 ## Coursework highlights
 
 - **Breast Cancer Tumor Classification (SVM)** — linear vs RBF kernels on the Wisconsin dataset, 96.5% accuracy, 0.95 malignant recall (Machine Learning, Fall 2026)
+- **Weather Station Analysis** — Seven analytical questions answered with hand-written SQL against MariaDB, visualized with Seaborn (Data Mining and Analytics, Spring 2026)
 - **Black Friday Shopping Trends** — survey design and chi-square analysis, n=39 (Statistical Reasoning, Fall 2025)
 
 ## Currently
