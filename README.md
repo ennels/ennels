@@ -4,7 +4,7 @@ AI & Cloud Computing student at the College of Western Idaho (AAS, May 2027).
 Process Control Technician intern at Micron Technology, summer 2026.
 Building toward a degree in engineering and a career in applied machine learning.
 
-[LinkedIn](https://linkedin.com/in/elijah-the-walker) · [Resume](resume.pdf)
+[elijahwalker.dev](https://elijahwalker.dev) · [LinkedIn](https://linkedin.com/in/elijah-the-walker) · [Resume](resume.pdf)
 
 ## Projects
 
