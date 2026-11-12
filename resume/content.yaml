@@ -1,0 +1,89 @@
+# Resume content. Edit this file, then rebuild (see README.md in this folder).
+# Everything except `variants` is shared by both versions.
+
+name: Elijah Walker
+contact:
+  email: elijahjames.walker@gmail.com
+  location: Boise, ID
+  links:
+    - label: elijahwalker.dev
+      url: https://elijahwalker.dev
+    - label: github.com/ennels
+      url: https://github.com/ennels
+    - label: linkedin.com/in/elijah-the-walker
+      url: https://linkedin.com/in/elijah-the-walker
+
+# Two tailored versions. Build with --input variant=ats (default) or variant=people.
+variants:
+  ats:
+    summary: >-
+      AI & Cloud Computing student who builds LLM-powered tools, including full-stack apps,
+      RAG pipelines, MCP servers, and AI agents, with hands-on semiconductor fab
+      experience from a Micron internship.
+    skills_layout: inline
+    skills:
+      - group: AI / ML
+        items: [LLM APIs, RAG, vector databases (ChromaDB), embeddings, MCP, AI agents, PyTorch, scikit-learn]
+      - group: Data
+        items: ["Python (pandas, NumPy)", SQL, Tableau, Matplotlib, Seaborn, SPC, hypothesis testing]
+      - group: Cloud & Tools
+        items: [Docker, Linux, Git, DigitalOcean, REST APIs, AI-assisted development]
+  people:
+    summary: >-
+      AI & Cloud Computing student with hands-on semiconductor fab experience from a Micron
+      process control internship. Builds data and AI tools in Python, from machine learning
+      classifiers to LLM-powered apps.
+    skills_layout: columns
+    skills:
+      - group: AI / ML
+        items: [Machine learning (PyTorch), LLM apps & RAG, AI agents & automation, AI-assisted development]
+      - group: Data
+        items: ["Python (pandas, NumPy)", SQL, Data visualization (Tableau), Statistical analysis]
+      - group: Manufacturing
+        items: [SPC, Metrology data review, Cleanroom protocol, Tool troubleshooting]
+
+education:
+  - degree: "Associate of Applied Science: Artificial Intelligence & Cloud Computing"
+    school: College of Western Idaho
+    details: ["GPA: 4.0", "Expected May 2027", "Planned: B.S., Boise State University (Fall 2027)"]
+    lines:
+      - label: Coursework
+        text: Machine learning, agentic engineering, computer vision, cloud computing, data visualization
+      - label: Leadership
+        text: Vice President of Leadership, Phi Theta Kappa Honor Society; Event Coordinator, TechForge AI Club
+
+experience:
+  - title: Process Control Technician Intern
+    org: Micron Technology
+    location: Manassas, VA
+    dates: Jun 2026 – Aug 2026
+    bullets:
+      - Reviewed metrology data and analyzed SPC charts; supported tool troubleshooting and engineering escalations.
+      - Learned CVD process and chemistry fundamentals and cleanroom protocol; contributed to shift passdowns.
+  - title: Digital Media Manager; Support Staff
+    org: Quaker Hill Camp & Conference Center
+    location: McCall, ID
+    dates: Jun 2016 – May 2026
+    bullets:
+      - Conducted IT services, managed digital assets and media marketing, trained support staff, and coordinated teams.
+
+projects:
+  - name: "Quorum: Endgame Employee Management"
+    stack: Tauri, React, FastAPI, SQLAlchemy, Claude Vision API
+    bullets:
+      - Built an AI-assisted desktop scheduling app for a conference center with a React/Tauri UI and FastAPI back end.
+      - Integrated QuickBooks (OAuth 2.0) and Cognito Forms REST APIs; used an LLM vision model to read PDF forms.
+  - name: Breast Cancer Tumor Classification (SVM)
+    stack: Python, scikit-learn, NumPy, Matplotlib
+    bullets:
+      - Trained linear and RBF-kernel SVMs to classify Wisconsin breast cancer tumors as malignant or benign.
+      - Compared kernel accuracy (95.6% linear, 96.5% RBF) with 0.95 malignant recall; plotted confusion matrices.
+  - name: Black Friday Shopping Trends
+    stack: Google Sheets, SurveyMonkey
+    bullets:
+      - Co-designed and fielded a 10-question survey (n=39) on the 2024–25 shift from in-store to online shopping.
+      - Ran chi-square goodness-of-fit tests (p=0.72, no significant change); found 49% of respondents less likely to shop in person.
+  - name: RAG + MCP Server
+    stack: Python, Model Context Protocol, ChromaDB, embeddings
+    bullets:
+      - Built an MCP server with web-search, PDF-ingestion, and RAG tools backed by ChromaDB vector storage.
