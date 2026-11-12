@@ -2,8 +2,8 @@
 // Content lives in content.yaml; this file is layout only.
 //
 // Build (from this folder):
-//   typst compile --font-path fonts resume.typ ../resume.pdf
-//   typst compile --font-path fonts --input variant=people resume.typ resume-people.pdf
+//   typst compile --font-path fonts --input variant=people resume.typ ../resume.pdf   (public copy)
+//   typst compile --font-path fonts resume.typ resume-ats.pdf
 //   typst compile --font-path fonts --input phone="(208) 555-0100" resume.typ resume-apply.pdf
 //
 // ATS notes baked into this layout:

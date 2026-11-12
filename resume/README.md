@@ -11,14 +11,14 @@ The PDF at the repo root (`../resume.pdf`) is built from these files with [Typst
 Install Typst 0.14+ (`brew install typst`, `winget install --id Typst.Typst`, `cargo install typst-cli`, or grab a binary from the [releases page](https://github.com/typst/typst/releases)). Then, from this folder:
 
 ```sh
-# public copy for GitHub (ATS layout, no phone number)
-typst compile --font-path fonts resume.typ ../resume.pdf
+# public copy for GitHub and elijahwalker.dev ("people" layout, no phone number)
+typst compile --font-path fonts --input variant=people resume.typ ../resume.pdf
 
-# for applications: add your phone number (passed in, never stored in the repo)
+# for applications: ATS layout + your phone number (passed in, never stored in the repo)
 typst compile --font-path fonts --input phone="(208) 555-0100" resume.typ resume-apply.pdf
 
-# the "people" version: 3-column skills grid, softer summary
-typst compile --font-path fonts --input variant=people resume.typ resume-people.pdf
+# the ATS version without a phone number
+typst compile --font-path fonts resume.typ resume-ats.pdf
 ```
 
 `typst watch` instead of `typst compile` rebuilds on every save.
